@@ -1,0 +1,15 @@
+$white: whitesmoke;
+$black: black;
+$light_brown: #543304;
+$third_color: #D80032;
+$hard_brown: #360c12;
+
+@mixin slideCenter{
+  display: flex;
+  justify-content: center;
+
+  padding-bottom: 50px;
+}
+
+
+$default_font_size: 20px;

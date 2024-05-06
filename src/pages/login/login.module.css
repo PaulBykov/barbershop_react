@@ -1,0 +1,11 @@
+.loginWindow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-image: url("https://cdn.hovia.com/app/uploads/clean-white-brick-wall-textures-plain-820x532.jpg");
+}
+
+/*# sourceMappingURL=login.module.css.map */

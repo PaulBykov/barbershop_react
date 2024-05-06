@@ -1,0 +1,26 @@
+@import "../../../../../helpers/styles/definations";
+
+
+.section{
+  @include slideCenter;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: $hard_brown;
+}
+
+
+.section_title{
+  font-size: $default_font_size * 1.5;
+  font-weight: bold;
+  color: $white;
+}
+
+.section_text{
+  font-family: "Fira Mono", Serif;
+
+  color: $white;
+
+  padding: 10px 75px 0 75px;
+  word-break: break-all;
+}

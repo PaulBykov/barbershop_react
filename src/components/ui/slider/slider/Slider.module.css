@@ -1,0 +1,19 @@
+@keyframes show {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 100%;
+  }
+}
+.controller {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-self: center;
+  gap: 50px;
+  width: 80%;
+  animation: show 2s;
+}
+
+/*# sourceMappingURL=Slider.module.css.map */

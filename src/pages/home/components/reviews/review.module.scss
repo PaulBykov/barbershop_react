@@ -1,0 +1,60 @@
+
+@keyframes show {
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 100%;
+  }
+}
+
+.review{
+  align-self: center;
+
+  padding: 1px 10px 0 10px;
+
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 white;
+
+  width: 350px;
+  height: 200px;
+
+  overflow: hidden;
+  animation: show 2s;
+
+  background-color: #FFFFF9;
+  color: black;
+
+  .top{
+    display: flex;
+    justify-content: space-between;
+
+    .rating{
+      color: #ffd700;
+      font-size: larger;
+    }
+
+    .date{
+      color: rgba(49, 49, 49, 0.8);
+
+      padding-right: 5px;
+      padding-top: 5px;
+    }
+  }
+
+  .text{
+    .barberName{
+      text-align: center;
+      padding: 0 10px 0 10px;
+      p{
+        margin: 0;
+      }
+      hr{
+        margin: 0;
+      }
+    }
+    .message{
+      overflow: hidden;
+    }
+  }
+}

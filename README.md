@@ -1,2 +1,2 @@
-# barbershop_react
- react+ts+scss. project abadonded
+# ReactBarbershop
+Barbershop website via React+TS

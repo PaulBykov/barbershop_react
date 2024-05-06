@@ -1,0 +1,36 @@
+header {
+  background-color: #360c12;
+  height: 200px;
+  font-family: "Book Antiqua";
+}
+header .nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  height: 100%;
+  color: whitesmoke;
+}
+header .nav .names {
+  display: flex;
+  gap: 20px;
+}
+header .nav .logo {
+  width: 25vw;
+}
+
+@media (max-width: 500px) {
+  header {
+    height: auto;
+    padding: 5px 0 5px 0;
+  }
+  header .names {
+    flex-direction: column;
+  }
+  header .logo {
+    width: 50vw !important;
+  }
+}
+
+/*# sourceMappingURL=header.module.css.map */

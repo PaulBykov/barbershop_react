@@ -1,0 +1,31 @@
+@import "../../../helpers/styles/definations.scss";
+
+
+.button {
+  width: 90px;
+  height: 90px;
+
+  border: 0;
+  background-color: transparent;
+  color: $hard_brown;
+
+  .img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.button:hover{
+  background-color: #ececec;
+}
+
+.selected{
+  @extend .button;
+
+  background-color: #dedede;
+}
+
+.selected:hover{
+  background-color: #dedede;
+}
+

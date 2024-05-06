@@ -1,0 +1,44 @@
+@import "../../../../../helpers/styles/definations";
+
+.list{
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+
+  width: 80%;
+
+  background-color: $white;
+  color: $black;
+
+  .selector{
+    display: flex;
+    flex-direction: row;
+
+    gap: 50px;
+
+    padding-bottom: 50px;
+  }
+}
+
+.title{
+  padding: 0;
+  margin: 0;
+  background-color: transparent;
+
+  font-family: Candara, sans-serif;
+  font-weight: lighter;
+  font-size: $default_font_size * 3;
+
+  color: $black;
+
+  text-align: center;
+}
+
+@media(max-width: 500px){
+  .list > .selector{
+    flex-direction: column;
+  }
+}
+
+
+

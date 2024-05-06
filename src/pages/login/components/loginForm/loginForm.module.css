@@ -1,0 +1,14 @@
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.loginForm input {
+  border-radius: 5px;
+  border: 1px solid #8f8f8f;
+  height: 1.25rem;
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+
+/*# sourceMappingURL=loginForm.module.css.map */

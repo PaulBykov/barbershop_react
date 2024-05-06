@@ -1,0 +1,48 @@
+@keyframes show {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 100%;
+  }
+}
+.review {
+  align-self: center;
+  padding: 1px 10px 0 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 white;
+  width: 350px;
+  height: 200px;
+  overflow: hidden;
+  animation: show 2s;
+  background-color: #FFFFF9;
+  color: black;
+}
+.review .top {
+  display: flex;
+  justify-content: space-between;
+}
+.review .top .rating {
+  color: #ffd700;
+  font-size: larger;
+}
+.review .top .date {
+  color: rgba(49, 49, 49, 0.8);
+  padding-right: 5px;
+  padding-top: 5px;
+}
+.review .text .barberName {
+  text-align: center;
+  padding: 0 10px 0 10px;
+}
+.review .text .barberName p {
+  margin: 0;
+}
+.review .text .barberName hr {
+  margin: 0;
+}
+.review .text .message {
+  overflow: hidden;
+}
+
+/*# sourceMappingURL=review.module.css.map */

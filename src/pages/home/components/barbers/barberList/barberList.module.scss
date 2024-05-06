@@ -1,0 +1,17 @@
+@import "../../../../../helpers/styles/definations";
+
+
+.list{
+  width: 80%;
+  align-self: center;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  gap: 15px;
+
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}

@@ -1,0 +1,17 @@
+.table {
+  font-size: 1.7rem;
+  font-style: italic;
+  width: 90%;
+  height: 100%;
+}
+.table .tr {
+  height: 8vh;
+}
+.table .tr .td {
+  width: 15%;
+}
+.table .tr .td:first-child {
+  width: 85%;
+}
+
+/*# sourceMappingURL=serviceTable.module.css.map */

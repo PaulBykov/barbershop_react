@@ -1,0 +1,8 @@
+@import "../../../../../helpers/styles/definations";
+
+
+.section{
+    @include slideCenter;
+
+    background-image: url("/public/assets/images/main/clean-white-brick-wall.webp");
+}

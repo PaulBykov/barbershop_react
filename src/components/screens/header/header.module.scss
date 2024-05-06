@@ -1,0 +1,44 @@
+@import '../../../helpers/styles/definations';
+
+header{
+  background-color: $hard_brown;
+  height: 200px;
+  font-family: "Book Antiqua";
+
+  .nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+
+    height: 100%;
+    color: $white;
+
+    .names{
+      display: flex;
+      gap: 20px;
+    }
+    .logo{
+      width: 25vw;
+    }
+  }
+}
+
+@media(max-width: 500px) {
+  header {
+    height: auto;
+    padding: 5px 0 5px 0;
+    .names {
+        flex-direction: column;
+    }
+    .logo{
+      width: 50vw !important;
+    }
+  }
+}
+
+
+
+
+

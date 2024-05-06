@@ -1,0 +1,23 @@
+.loginWindow {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  height: 300px;
+  aspect-ratio: 16/9;
+  gap: 10px;
+}
+.loginWindow .goBack {
+  align-self: flex-start;
+  font-size: 1rem;
+  padding-left: 10px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.loginWindow h2 {
+  padding: 0;
+  margin: 0;
+}
+
+/*# sourceMappingURL=loginWindow.module.css.map */

@@ -1,0 +1,9 @@
+.slide {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+  padding-bottom: 100px;
+  background-image: url("/public/assets/images/main/clean-white-brick-wall.webp");
+}
+
+/*# sourceMappingURL=fourthSlide.module.css.map */

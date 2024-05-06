@@ -1,0 +1,33 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  width: 80%;
+  background-color: whitesmoke;
+  color: black;
+}
+.list .selector {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  padding-bottom: 50px;
+}
+
+.title {
+  padding: 0;
+  margin: 0;
+  background-color: transparent;
+  font-family: Candara, sans-serif;
+  font-weight: lighter;
+  font-size: 60px;
+  color: black;
+  text-align: center;
+}
+
+@media (max-width: 500px) {
+  .list > .selector {
+    flex-direction: column;
+  }
+}
+
+/*# sourceMappingURL=serviceList.module.css.map */

@@ -1,0 +1,19 @@
+
+
+.table{
+  font-size: 1.7rem;
+  font-style: italic;
+
+  width: 90%;
+  height: 100%;
+
+  .tr{
+    height: 8vh;
+    .td{
+      width: 15%;
+    }
+    .td:first-child{
+      width: 85%;
+    }
+  }
+}

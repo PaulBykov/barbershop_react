@@ -1,0 +1,19 @@
+@import "definations";
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-size: 20px;
+  color: $black;
+}
+
+a{
+  text-decoration: none;
+}
+
+body::-webkit-scrollbar{
+  width: 0;
+  height: 0;
+}
